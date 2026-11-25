@@ -1,0 +1,4 @@
+{
+  "status": "CONFIG_UNAVAILABLE",
+  "error": "argument should be a bytes-like object or ASCII string, not 'dict'"
+}

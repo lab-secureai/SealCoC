@@ -1,0 +1,4 @@
+Case,Official source URL,Raw image SHA-256,Compressed SHA-256
+dfr-01-fat,https://cfreds-archive.nist.gov/dfr-images/dfr-01-fat.dd.bz2,5d5bf8fb15a1df463fb0b9c0a958c05ece30941af40545f895131ff0daf32fab,4a9df428d55e5c6836f998882e36f77b595bd5bcbed077cb4cbbd25c593bce46
+dfr-02-ext,https://cfreds-archive.nist.gov/dfr-images/dfr-02-ext.dd.bz2,a6e2dc536e9272315ff0559f47e1fdb3fc0b83b6fafb20431257092f4b1d8268,72310d50e5a5ac2e9932866ca1182fafd5e44d8b7ee76a1420c8e9113bc4919f
+dfr-03-ntfs,https://cfreds-archive.nist.gov/dfr-images/dfr-03-ntfs.dd.bz2,466db91345fc6f5b47527f4b2cb109305bdabf2caa0883eb60516c26e625b03a,1f836037afa45e97992f6c1e983b0f0b89de1db859ff962d43bb628813bd992e

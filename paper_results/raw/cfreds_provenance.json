@@ -1,0 +1,50 @@
+[
+  {
+    "case_id": "dfr-01-fat",
+    "dataset": "NIST CFReDS DFR",
+    "source_page": "https://cfreds-archive.nist.gov/dfr-test-images.html",
+    "original_url": "https://cfreds-archive.nist.gov/dfr-images/dfr-01-fat.dd.bz2",
+    "compressed_file": "datasets/cfreds/archives/dfr-01-fat.dd.bz2",
+    "compressed_bytes": 2227554,
+    "compressed_sha256": "4a9df428d55e5c6836f998882e36f77b595bd5bcbed077cb4cbbd25c593bce46",
+    "image_file": "datasets/cfreds/images/dfr-01-fat.dd",
+    "image_bytes": 1073742336,
+    "image_sha256": "5d5bf8fb15a1df463fb0b9c0a958c05ece30941af40545f895131ff0daf32fab",
+    "decompression_sha256_confirmed": true,
+    "integrity_claim": "locally fingerprinted; no NIST authenticated digest asserted",
+    "source_type": "official_NIST_https",
+    "image_type": "real_documented_forensic_test_image"
+  },
+  {
+    "case_id": "dfr-02-ext",
+    "dataset": "NIST CFReDS DFR",
+    "source_page": "https://cfreds-archive.nist.gov/dfr-test-images.html",
+    "original_url": "https://cfreds-archive.nist.gov/dfr-images/dfr-02-ext.dd.bz2",
+    "compressed_file": "datasets/cfreds/archives/dfr-02-ext.dd.bz2",
+    "compressed_bytes": 2282625,
+    "compressed_sha256": "72310d50e5a5ac2e9932866ca1182fafd5e44d8b7ee76a1420c8e9113bc4919f",
+    "image_file": "datasets/cfreds/images/dfr-02-ext.dd",
+    "image_bytes": 1073742336,
+    "image_sha256": "a6e2dc536e9272315ff0559f47e1fdb3fc0b83b6fafb20431257092f4b1d8268",
+    "decompression_sha256_confirmed": true,
+    "integrity_claim": "locally fingerprinted; no NIST authenticated digest asserted",
+    "source_type": "official_NIST_https",
+    "image_type": "real_documented_forensic_test_image"
+  },
+  {
+    "case_id": "dfr-03-ntfs",
+    "dataset": "NIST CFReDS DFR",
+    "source_page": "https://cfreds-archive.nist.gov/dfr-test-images.html",
+    "original_url": "https://cfreds-archive.nist.gov/dfr-images/dfr-03-ntfs.dd.bz2",
+    "compressed_file": "datasets/cfreds/archives/dfr-03-ntfs.dd.bz2",
+    "compressed_bytes": 2225194,
+    "compressed_sha256": "1f836037afa45e97992f6c1e983b0f0b89de1db859ff962d43bb628813bd992e",
+    "image_file": "datasets/cfreds/images/dfr-03-ntfs.dd",
+    "image_bytes": 1073742336,
+    "image_sha256": "466db91345fc6f5b47527f4b2cb109305bdabf2caa0883eb60516c26e625b03a",
+    "decompression_sha256_confirmed": true,
+    "integrity_claim": "locally fingerprinted; no NIST authenticated digest asserted",
+    "source_type": "official_NIST_https",
+    "image_type": "real_documented_forensic_test_image"
+  }
+]

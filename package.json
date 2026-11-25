@@ -1,0 +1,13 @@
+{
+  "name": "seal-coc-oneclick",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reproducible SEAL-CoC Groth16/Fabric/EVM evaluation harness",
+  "dependencies": {
+    "circomlib": "2.0.5",
+    "snarkjs": "0.7.6",
+    "ethers": "6.15.0",
+    "ganache": "7.9.2",
+    "solc": "0.8.30"
+  }
+}

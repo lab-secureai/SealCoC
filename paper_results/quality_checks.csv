@@ -1,0 +1,24 @@
+suite,gate,critical,pass,detail
+system,No non-positive Fabric verify latency,True,True,min=47.959 ms
+system,Fabric verify repetitions >=30,True,True,"[30, 30, 30, 30, 30, 30, 30]"
+system,Throughput >=5 independent runs/concurrency,True,True,"[5, 5, 5, 5, 5]"
+system,Workflow repetitions >=20,True,True,n=20
+system,WAN repetitions >=10/profile,True,True,"[10, 10, 10, 10]"
+system,WAN actual peer RTT measured,False,True,"[0.11600000000000002, 21.187999999999995, 53.263, 104.449]"
+system,True E2E repetitions >=10/size,True,True,"[10, 10]"
+system,Modern 3-of-4 threshold baseline reproduced,True,True,7 operations
+system,Real network dataset measured,True,True,"CIC-IDS2017 Friday DDoS flow CSV, SEAL synthetic EXT4 forensic image"
+system,Binary artifact modality measured,False,True,"MEASURED_REAL_NETWORK_DATASET, MEASURED_SYNTHETIC_BINARY_IMAGE"
+system,4-KiB Groth16 result present,True,True,"constraints=184934, reps=20"
+system,Fabric adversarial tests all pass,True,True,12/12 passed
+system,Local adversarial tests all pass,True,True,9/9 passed
+extended,All eight Fabric concurrency conditions,True,True,"Expected [8, 10, 12, 14, 16, 20, 24, 32]; measured [8, 10, 12, 14, 16, 20, 24, 32]"
+extended,Fabric >= 5 independent runs per condition,True,True,minimum runs = 5
+extended,All Fabric client/ledger reconciliations,True,True,40/40 audited runs
+extended,Fabric block occupancy measurements present,True,True,165 decoded blocks
+extended,Orderer batch-size config decoded,False,False,CONFIG_UNAVAILABLE
+extended,All three NIST CFReDS filesystem cases,True,True,"Expected ['dfr-01-fat', 'dfr-02-ext', 'dfr-03-ntfs']; measured ['dfr-01-fat', 'dfr-02-ext', 'dfr-03-ntfs']"
+extended,NIST CFReDS >=5 independent full-image passes,True,True,"{'dfr-01-fat': 5, 'dfr-02-ext': 5, 'dfr-03-ntfs': 5}"
+extended,CFReDS original image integrity and tamper checks,True,True,1; rows=15
+extended,CFReDS real-image measurement status,True,True,MEASURED_NIST_REAL_IMAGE
+extended,NIST HTTPS provenance and both SHA-256 fingerprints,True,True,Compressed and uncompressed SHA-256 fingerprints recorded
